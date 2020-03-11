@@ -31,5 +31,3 @@ def selectionSort(list_1):
 
 
 return list_1
-© 2020
-GitHub, Inc.
