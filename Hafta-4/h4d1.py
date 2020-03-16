@@ -2,7 +2,7 @@ import os
 
 os.getcwd()
 
-def get_words(my_file=u"C:\\Users\\Beyza\Documents\data.txt"):
+def get_words(my_file=u"C:\\Users\\Beyza\\Documents\\data.txt"):
       my_list = []
       f = open(my_file, "r+")
       contents = f.readlines()
