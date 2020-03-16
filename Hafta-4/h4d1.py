@@ -2,13 +2,13 @@ import os
 
 os.getcwd()
 
-def get_words(my_file=u"C:\\Users\\Elif\Documents\data.txt"):
+def get_words(my_file=u"C:\\Users\\Beyza\Documents\data.txt"):
       my_list = []
       f = open(my_file, "r+")
       contents = f.readlines()
 
       for line in contents:
-      #cumleleri ayırmak icin split kullanıyoruz
+      
           words=line.split("")
           for word in words:
           #print(word)
